@@ -1,0 +1,47 @@
+name:                events-form
+description:         ""
+version:             0.1.0.0
+license:             MIT
+author:              "Keijo Kapp <keijo.kapp@gmail.com>"
+
+extra-source-files:
+- README.md
+
+dependencies:
+- base >= 4.7 && < 5
+- text
+- bytestring
+- base64-bytestring
+- entropy
+- containers
+- unordered-containers
+- directory
+- aeson
+- config-ini
+- uri-encode
+- uuid
+- time
+- cmark
+- warp
+- wai
+- wai-extra
+- wai-app-static
+- blaze-html
+- mime-mail
+- mime-types
+- HaskellNet
+- HaskellNet-SSL
+- filepath
+- http-types
+- utf8-string
+
+executables:
+  events-form:
+    main:                Main.hs
+    source-dirs:         src
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -Wall
+    - -Wno-name-shadowing

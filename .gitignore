@@ -1,0 +1,4 @@
+.*
+/*.cabal
+config.ini
+!.gitignore

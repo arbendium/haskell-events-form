@@ -1,0 +1,17 @@
+
+.bmd-form-group.is-focused .bmd-label-floating.label-rows-2,
+.bmd-form-group.is-filled .bmd-label-floating.label-rows-2 {
+    top: -1.4rem !important;
+}
+.label-rows-2 {
+    top: -11px !important;
+}
+.bmd-form-group.is-focused .bmd-label-floating.label-rows-3,
+.bmd-form-group.is-filled .bmd-label-floating.label-rows-3 {
+    top: -2.1rem !important;
+}
+.label-rows-3 {
+    top: -30px !important;
+}
+
+.bmd-form-group.is-focused .bmd-label-floating
